@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">FX Reader</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_inventory">Inventory</string>
+
+    <string name="ip_address">Enter IP Address</string>
+    <string name="fragment_inventory_label">Inventory</string>
+    <string name="fragment_connect_label">FX Reader</string>
+
+    <string name="connect">Connect</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="not_connected">Not Connected</string>
+
+    <string name="status">Status:</string>
+    <string name="reader_id">Reader ID:</string>
+    <string name="model_name">ModelName:</string>
+    <string name="communication_standard">Communication Standard:</string>
+    <string name="country_code">Country Code:</string>
+    <string name="firmware_version">FirmwareVersion:</string>
+    <string name="rssi_filter">RSSI Filter:</string>
+    <string name="sdk_version">SDK Version:</string>
+
+    <string name="rssi">RSSI</string>
+    <string name="count">Count</string>
+    <string name="tag">TAG</string>
+    <string name="inventory">Inventory</string>
+
+</resources>

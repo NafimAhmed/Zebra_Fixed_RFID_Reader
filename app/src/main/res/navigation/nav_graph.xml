@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/ConnectFragment">
+
+    <fragment
+        android:id="@+id/ConnectFragment"
+        android:name="com.zebra.fxreader.ConnectFragment"
+        android:label="@string/fragment_connect_label"
+        tools:layout="@layout/fragment_connect">
+
+        <action
+            android:id="@+id/action_ConnectFragment_to_InventoryFragment"
+            app:destination="@id/InventoryFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/InventoryFragment"
+        android:name="com.zebra.fxreader.InventoryFragment"
+        android:label="@string/fragment_inventory_label"
+        tools:layout="@layout/fragment_inventory">
+
+        <action
+            android:id="@+id/action_InventoryFragment_to_ConnectFragment"
+            app:destination="@id/ConnectFragment" />
+    </fragment>
+</navigation>
